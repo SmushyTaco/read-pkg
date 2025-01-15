@@ -10,13 +10,13 @@
 ## Install
 
 ```sh
-npm install read-pkg
+npm install @smushytaco/read-pkg
 ```
 
 ## Usage
 
 ```js
-import {readPackage} from 'read-pkg';
+import {readPackage} from '@smushytaco/read-pkg';
 
 console.log(await readPackage());
 //=> {name: 'read-pkg', …}
@@ -76,6 +76,6 @@ Default: `true`
 
 ## Related
 
-- [read-package-up](https://github.com/sindresorhus/read-package-up) - Read the closest package.json file
+- [@smushytaco/read-package-up](https://github.com/SmushyTaco/read-package-up) - Read the closest package.json file
 - [write-package](https://github.com/sindresorhus/write-package) - Write a `package.json` file
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file
